@@ -274,29 +274,3 @@ endif()
 install(TARGETS mrustc
     RUNTIME DESTINATION bin
 )
-
-# Add testing targets
-add_custom_target(rust_tests-libs
-    COMMAND ${CMAKE_MAKE_PROGRAM} -f ${CMAKE_SOURCE_DIR}/minicargo.mk rust_tests-libs
-    WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
-)
-
-add_custom_target(local_tests
-    COMMAND ${CMAKE_MAKE_PROGRAM} -f ${CMAKE_SOURCE_DIR}/minicargo.mk local_tests
-    WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
-)
-
-add_custom_target(RUSTCSRC
-    COMMAND ${CMAKE_MAKE_PROGRAM} -f ${CMAKE_SOURCE_DIR}/minicargo.mk RUSTCSRC
-    WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
-)
-
-add_custom_target(test
-    COMMAND ${CMAKE_MAKE_PROGRAM} -f ${CMAKE_SOURCE_DIR}/minicargo.mk test
-    WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
-)
-
-add_custom_target(LIBS
-    COMMAND ${CMAKE_MAKE_PROGRAM} -f ${CMAKE_SOURCE_DIR}/minicargo.mk LIBS
-    WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
-)
