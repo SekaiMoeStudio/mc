@@ -1,2 +1,0 @@
-.obj/version.o: src/version.cpp src/include/version.hpp
-src/include/version.hpp:

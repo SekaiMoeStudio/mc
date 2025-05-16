@@ -1,2 +1,0 @@
-.obj/trans/allocator.o: src/trans/allocator.cpp src/trans/allocator.hpp
-src/trans/allocator.hpp:

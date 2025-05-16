@@ -1,6 +1,0 @@
-.obj/debug.o: src/debug.cpp src/include/debug_inner.hpp \
- src/include/debug.hpp src/common.hpp src/include/compile_error.hpp
-src/include/debug_inner.hpp:
-src/include/debug.hpp:
-src/common.hpp:
-src/include/compile_error.hpp:
