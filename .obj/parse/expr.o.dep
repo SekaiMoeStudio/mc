@@ -1,0 +1,66 @@
+.obj/parse/expr.o: src/parse/expr.cpp src/parse/parseerror.hpp \
+ src/parse/tokenstream.hpp src/include/span.hpp src/include/rc_string.hpp \
+ src/include/../common.hpp src/include/../include/debug.hpp \
+ src/include/../include/compile_error.hpp src/include/ident.hpp \
+ src/parse/token.hpp src/include/tagged_union.hpp \
+ src/parse/../coretypes.hpp src/include/int128.h \
+ src/parse/eTokenType.enum.h src/ast/edition.hpp \
+ src/include/compile_error.hpp src/ast/ast.hpp \
+ src/include/target_version.hpp src/ast/../coretypes.hpp \
+ src/ast/../parse/tokentree.hpp src/ast/types.hpp src/ast/../common.hpp \
+ src/coretypes.hpp src/ast/lifetime_ref.hpp src/ast/pattern.hpp \
+ src/ast/path.hpp src/ast/expr_ptr.hpp src/ast/macro.hpp \
+ src/ast/attrs.hpp src/ast/path.hpp src/ast/attrs.hpp src/ast/item.hpp \
+ src/ast/macro.hpp src/ast/generics.hpp \
+ src/macro_rules/macro_rules_ptr.hpp src/expand/common.hpp \
+ src/expand/../macro_rules/macro_rules.hpp src/parse/lex.hpp \
+ src/parse/tokentree.hpp src/common.hpp src/ast/../hir/asm.hpp \
+ src/ast/expr.hpp src/ast/pattern.hpp src/parse/common.hpp \
+ src/parse/../ast/ast.hpp src/parse/tokentree.hpp \
+ src/parse/interpolated_fragment.hpp
+src/parse/parseerror.hpp:
+src/parse/tokenstream.hpp:
+src/include/span.hpp:
+src/include/rc_string.hpp:
+src/include/../common.hpp:
+src/include/../include/debug.hpp:
+src/include/../include/compile_error.hpp:
+src/include/ident.hpp:
+src/parse/token.hpp:
+src/include/tagged_union.hpp:
+src/parse/../coretypes.hpp:
+src/include/int128.h:
+src/parse/eTokenType.enum.h:
+src/ast/edition.hpp:
+src/include/compile_error.hpp:
+src/ast/ast.hpp:
+src/include/target_version.hpp:
+src/ast/../coretypes.hpp:
+src/ast/../parse/tokentree.hpp:
+src/ast/types.hpp:
+src/ast/../common.hpp:
+src/coretypes.hpp:
+src/ast/lifetime_ref.hpp:
+src/ast/pattern.hpp:
+src/ast/path.hpp:
+src/ast/expr_ptr.hpp:
+src/ast/macro.hpp:
+src/ast/attrs.hpp:
+src/ast/path.hpp:
+src/ast/attrs.hpp:
+src/ast/item.hpp:
+src/ast/macro.hpp:
+src/ast/generics.hpp:
+src/macro_rules/macro_rules_ptr.hpp:
+src/expand/common.hpp:
+src/expand/../macro_rules/macro_rules.hpp:
+src/parse/lex.hpp:
+src/parse/tokentree.hpp:
+src/common.hpp:
+src/ast/../hir/asm.hpp:
+src/ast/expr.hpp:
+src/ast/pattern.hpp:
+src/parse/common.hpp:
+src/parse/../ast/ast.hpp:
+src/parse/tokentree.hpp:
+src/parse/interpolated_fragment.hpp:

@@ -1,0 +1,26 @@
+.obj/hir/pattern.o: src/hir/pattern.cpp src/hir/pattern.hpp \
+ src/include/int128.h src/include/../common.hpp \
+ src/include/../include/debug.hpp \
+ src/include/../include/compile_error.hpp src/include/tagged_union.hpp \
+ src/hir/path.hpp src/common.hpp src/include/span.hpp \
+ src/include/rc_string.hpp src/include/stdspan.hpp src/hir/type_ref.hpp \
+ src/hir/generic_ref.hpp src/hir/expr_ptr.hpp src/mir/mir_ptr.hpp \
+ src/hir/type.hpp src/hir/literal.hpp src/hir/generic_params.hpp
+src/hir/pattern.hpp:
+src/include/int128.h:
+src/include/../common.hpp:
+src/include/../include/debug.hpp:
+src/include/../include/compile_error.hpp:
+src/include/tagged_union.hpp:
+src/hir/path.hpp:
+src/common.hpp:
+src/include/span.hpp:
+src/include/rc_string.hpp:
+src/include/stdspan.hpp:
+src/hir/type_ref.hpp:
+src/hir/generic_ref.hpp:
+src/hir/expr_ptr.hpp:
+src/mir/mir_ptr.hpp:
+src/hir/type.hpp:
+src/hir/literal.hpp:
+src/hir/generic_params.hpp:

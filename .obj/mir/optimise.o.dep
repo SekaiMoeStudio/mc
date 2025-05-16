@@ -1,0 +1,60 @@
+.obj/mir/optimise.o: src/mir/optimise.cpp src/mir/main_bindings.hpp \
+ src/hir/hir.hpp src/include/target_version.hpp src/include/int128.h \
+ src/include/../common.hpp src/include/../include/debug.hpp \
+ src/include/../include/compile_error.hpp src/include/tagged_union.hpp \
+ src/ast/edition.hpp src/macro_rules/macro_rules_ptr.hpp src/hir/type.hpp \
+ src/hir/path.hpp src/common.hpp src/include/span.hpp \
+ src/include/rc_string.hpp src/include/stdspan.hpp src/hir/type_ref.hpp \
+ src/hir/generic_ref.hpp src/hir/expr_ptr.hpp src/mir/mir_ptr.hpp \
+ src/hir/literal.hpp src/hir/generic_params.hpp src/hir/pattern.hpp \
+ src/hir/crate_ptr.hpp src/hir/encoded_literal.hpp src/hir/../common.hpp \
+ src/hir/inherent_cache.hpp src/hir/../include/range_vec_map.hpp \
+ src/hir/asm.hpp src/mir/mir.hpp src/hir/visitor.hpp \
+ src/hir/item_path.hpp src/hir_typeck/static.hpp \
+ src/hir_typeck/common.hpp src/hir_typeck/impl_ref.hpp \
+ src/hir_typeck/monomorph.hpp src/hir_typeck/resolve_common.hpp \
+ src/mir/helpers.hpp src/mir/operations.hpp src/mir/visit_crate_mir.hpp \
+ src/trans/target.hpp src/trans/trans_list.hpp src/hir/expr.hpp
+src/mir/main_bindings.hpp:
+src/hir/hir.hpp:
+src/include/target_version.hpp:
+src/include/int128.h:
+src/include/../common.hpp:
+src/include/../include/debug.hpp:
+src/include/../include/compile_error.hpp:
+src/include/tagged_union.hpp:
+src/ast/edition.hpp:
+src/macro_rules/macro_rules_ptr.hpp:
+src/hir/type.hpp:
+src/hir/path.hpp:
+src/common.hpp:
+src/include/span.hpp:
+src/include/rc_string.hpp:
+src/include/stdspan.hpp:
+src/hir/type_ref.hpp:
+src/hir/generic_ref.hpp:
+src/hir/expr_ptr.hpp:
+src/mir/mir_ptr.hpp:
+src/hir/literal.hpp:
+src/hir/generic_params.hpp:
+src/hir/pattern.hpp:
+src/hir/crate_ptr.hpp:
+src/hir/encoded_literal.hpp:
+src/hir/../common.hpp:
+src/hir/inherent_cache.hpp:
+src/hir/../include/range_vec_map.hpp:
+src/hir/asm.hpp:
+src/mir/mir.hpp:
+src/hir/visitor.hpp:
+src/hir/item_path.hpp:
+src/hir_typeck/static.hpp:
+src/hir_typeck/common.hpp:
+src/hir_typeck/impl_ref.hpp:
+src/hir_typeck/monomorph.hpp:
+src/hir_typeck/resolve_common.hpp:
+src/mir/helpers.hpp:
+src/mir/operations.hpp:
+src/mir/visit_crate_mir.hpp:
+src/trans/target.hpp:
+src/trans/trans_list.hpp:
+src/hir/expr.hpp:

@@ -1,0 +1,3 @@
+.obj/toml.o: toml.cpp toml.h debug.h
+toml.h:
+debug.h:

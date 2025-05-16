@@ -1,0 +1,7 @@
+.obj/rc_string.o: src/rc_string.cpp src/include/rc_string.hpp \
+ src/include/../common.hpp src/include/../include/debug.hpp \
+ src/include/../include/compile_error.hpp
+src/include/rc_string.hpp:
+src/include/../common.hpp:
+src/include/../include/debug.hpp:
+src/include/../include/compile_error.hpp:
