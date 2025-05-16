@@ -1,9 +1,25 @@
-cmake_minimum_required(VERSION 3.14)
+#if(",${CMAKE_CURRENT_SOURCE_DIR}," STREQUAL ",${CMAKE_CURRENT_BINARY_DIR},")
+if (CMAKE_SOURCE_DIR STREQUAL CMAKE_BINARY_DIR AND NOT MSVC_IDE)
+    # try to clean up (does not work)
+    #file(REMOVE "${CMAKE_CURRENT_BINARY_DIR}/CMakeCache.txt")
+    message(FATAL_ERROR "ERROR: In-source builds are not allowed, please use an extra build dir.")
+endif()
+
+cmake_minimum_required(VERSION 3.10)
 project(mrustc CXX)
 
 # Set C++ standard
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+find_program(CCACHE_FOUND ccache)
+if(CCACHE_FOUND)
+    set_property(GLOBAL PROPERTY RULE_LAUNCH_COMPILE ccache)
+    set_property(GLOBAL PROPERTY RULE_LAUNCH_LINK ccache)
+    message(STATUS "Using ccache: ${CCACHE_FOUND}")
+else()
+    message(STATUS "Ccache not found. Compiling with cache will be disabled.")
+endif(CCACHE_FOUND)
 
 # Find required packages
 find_package(ZLIB REQUIRED)
